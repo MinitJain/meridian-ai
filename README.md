@@ -1,6 +1,6 @@
 # Meridian AI
 
-![React 19](https://img.shields.io/badge/react-19-58c4dc?logo=react&logoColor=white&style=flat-square)
+![React](https://img.shields.io/badge/react-19-58c4dc?logo=react&logoColor=white&style=flat-square)
 ![TypeScript](https://img.shields.io/badge/typescript-~5.9-3178c6?logo=typescript&logoColor=white&style=flat-square)
 ![Vite](https://img.shields.io/badge/vite-7-646cff?logo=vite&logoColor=white&style=flat-square)
 ![Express](https://img.shields.io/badge/express-5-000000?logo=express&logoColor=white&style=flat-square)
@@ -8,7 +8,7 @@
 ![LangChain](https://img.shields.io/badge/langchain-1.1-1c3c3c?logo=langchain&logoColor=white&style=flat-square)
 ![Mistral AI](https://img.shields.io/badge/mistral_ai-mistral--large--latest-FF6F00?style=flat-square)
 ![Tavily](https://img.shields.io/badge/tavily-0.7-4051b5?style=flat-square)
-![Node >=18](https://img.shields.io/badge/node-%3E%3D18-339933?logo=nodedotjs&logoColor=white&style=flat-square)
+![Node](https://img.shields.io/badge/node-%3E%3D18-339933?logo=nodedotjs&logoColor=white&style=flat-square)
 ![License](https://img.shields.io/badge/license-MIT-blue?style=flat-square)
 
 Real-time AI chat assistant with conditional web search, streaming responses, and tool-calling capabilities. Built with a clean layered architecture that separates transport, state, and presentation — designed so the AI core (`backend/core/`) can be reused independently of the chat interface.
