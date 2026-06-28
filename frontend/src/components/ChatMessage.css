@@ -1,0 +1,28 @@
+.message-user {
+  align-self: flex-end;
+  max-width: 75%;
+  background: var(--user-bubble);
+  border-radius: var(--radius-lg);
+  padding: 10px 16px;
+  font-size: var(--font-ui);
+  line-height: 1.5;
+  color: var(--text);
+}
+
+.message-assistant {
+  max-width: 100%;
+  line-height: 1.7;
+  color: var(--text);
+}
+
+.assistant-text {
+  font-size: var(--font-body);
+  line-height: 1.75;
+  white-space: pre-wrap;
+  word-break: break-word;
+}
+
+.assistant-error {
+  color: var(--error);
+  font-size: var(--font-ui);
+}

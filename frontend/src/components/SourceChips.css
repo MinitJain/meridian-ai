@@ -1,0 +1,50 @@
+.source-chips {
+  display: flex;
+  gap: 8px;
+  overflow-x: auto;
+  scrollbar-width: none;
+  margin-bottom: 16px;
+  padding-bottom: 2px;
+}
+
+.source-chips::-webkit-scrollbar {
+  display: none;
+}
+
+.source-chip {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 10px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: transparent;
+  white-space: nowrap;
+  font-size: var(--font-small);
+  transition: border-color 150ms ease, background 150ms ease;
+  flex-shrink: 0;
+  max-width: 240px;
+  overflow: hidden;
+}
+
+.source-chip:hover {
+  border-color: var(--border-hover);
+  background: #141414;
+}
+
+.source-icon {
+  flex-shrink: 0;
+  opacity: 0.6;
+}
+
+.source-title {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: var(--text);
+}
+
+.source-domain {
+  color: var(--text-muted);
+  font-size: 11px;
+  flex-shrink: 0;
+}

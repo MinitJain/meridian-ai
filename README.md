@@ -1,2 +1,1 @@
-# meridian-ai
-# meridian-ai
+# Meridian AI

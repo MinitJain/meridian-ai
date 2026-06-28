@@ -1,0 +1,75 @@
+:root {
+  --bg: #0B0B0B;
+  --surface: #0F0F0F;
+  --user-bubble: #181818;
+  --border: #1E1E1E;
+  --border-hover: #333;
+  --text: #E8E8E8;
+  --text-secondary: #8A8A8A;
+  --text-muted: #555;
+  --radius: 8px;
+  --radius-lg: 16px;
+  --content-width: 720px;
+  --font-body: 16px;
+  --font-small: 13px;
+  --font-ui: 14px;
+  --error: #FF4D4D;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body, #root {
+  height: 100%;
+  overflow: hidden;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-size: var(--font-body);
+  line-height: 1.6;
+  color: var(--text);
+  background: var(--bg);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button {
+  border: none;
+  background: none;
+  cursor: pointer;
+  font: inherit;
+  color: inherit;
+}
+
+textarea {
+  font: inherit;
+  color: inherit;
+  resize: none;
+}
+
+::selection {
+  background: #333;
+  color: var(--text);
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #222;
+  border-radius: 3px;
+}

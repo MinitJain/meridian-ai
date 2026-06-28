@@ -1,0 +1,25 @@
+{
+  "name": "meridian-ai",
+  "version": "1.0.0",
+  "description": "Simple Node.js input example with langgraph",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "dependencies": {
+    "@langchain/core": "^1.1.49",
+    "@langchain/mistralai": "^1.1.0",
+    "@tavily/core": "^0.7.6",
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "nodemailer": "^9.0.0",
+    "socket.io": "^4.8.3",
+    "zod": "^4.4.3"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
