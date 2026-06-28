@@ -24,12 +24,13 @@ Open `http://localhost:5173`.
 
 Copy `backend/.env.example` to `backend/.env` and fill in your keys:
 
-| Variable | Description |
-|----------|-------------|
-| `MISTRAL_API_KEY` | Mistral AI API key |
-| `TAVILY_API_KEY` | Tavily web search API key |
-| `EMAIL_USER` | Gmail address for email tool |
-| `EMAIL_PASS` | Gmail app password |
+| Variable          | Description                  |
+| ----------------- | ---------------------------- |
+| `MISTRAL_API_KEY` | Mistral AI API key           |
+| `TAVILY_API_KEY`  | Tavily web search API key    |
+| `PORT`            | Server port (default: 3000)   |
+| `EMAIL_USER`      | Gmail address for email tool |
+| `EMAIL_PASS`      | Gmail app password           |
 
 ## Deploy
 
