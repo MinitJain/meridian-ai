@@ -10,7 +10,7 @@
   <img alt="Mistral AI" src="https://img.shields.io/badge/Mistral%20AI-mistral--large--latest-FF7000?style=flat-square" />
   <img alt="Tavily" src="https://img.shields.io/badge/Tavily-0.7-4051B5?style=flat-square" />
   <br />
-  <img alt="Node.js >=18" src="https://img.shields.io/badge/Node.js-%3E%3D18-339933?logo=nodedotjs&logoColor=white&style=flat-square" />
+ <img alt="Node.js >=18" src="https://img.shields.io/badge/Node.js-%3E%3D18-339933?logo=nodedotjs&logoColor=white&style=flat-square" />
   <img alt="License" src="https://img.shields.io/badge/License-MIT-blue?style=flat-square" />
 </p>
 
