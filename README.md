@@ -1,20 +1,17 @@
 # Meridian AI
 
 <p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/react-19-58c4dc?logo=react&logoColor=white&style=flat-square">
-    <img alt="React 19" src="https://img.shields.io/badge/react-19-58c4dc?logo=react&logoColor=white&style=flat-square">
-  </picture>
-  <img alt="TypeScript" src="https://img.shields.io/badge/typescript-~5.9-3178c6?logo=typescript&logoColor=white&style=flat-square">
-  <img alt="Vite" src="https://img.shields.io/badge/vite-7-646cff?logo=vite&logoColor=white&style=flat-square">
-  <img alt="Express" src="https://img.shields.io/badge/express-5-000000?logo=express&logoColor=white&style=flat-square">
-  <img alt="Socket.IO" src="https://img.shields.io/badge/socket.io-4-010101?logo=socket.io&logoColor=white&style=flat-square">
-  <img alt="LangChain" src="https://img.shields.io/badge/langchain-1.1-1c3c3c?logo=langchain&logoColor=white&style=flat-square">
-  <img alt="Mistral AI" src="https://img.shields.io/badge/mistral_ai-mistral--large--latest-FF6F00?style=flat-square">
-  <img alt="Tavily" src="https://img.shields.io/badge/tavily-0.7-4051b5?style=flat-square">
-  <br>
-  <img alt="Node >=18" src="https://img.shields.io/badge/node-%3E%3D18-339933?logo=nodedotjs&logoColor=white&style=flat-square">
-  <img alt="License" src="https://img.shields.io/badge/license-MIT-blue?style=flat-square">
+  <img alt="React 19" src="https://img.shields.io/badge/React-19-61DAFB?logo=react&logoColor=white&style=flat-square" />
+  <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-5.9-3178C6?logo=typescript&logoColor=white&style=flat-square" />
+  <img alt="Vite" src="https://img.shields.io/badge/Vite-7-646CFF?logo=vite&logoColor=white&style=flat-square" />
+  <img alt="Express" src="https://img.shields.io/badge/Express-5-000000?logo=express&logoColor=white&style=flat-square" />
+  <img alt="Socket.IO" src="https://img.shields.io/badge/Socket.IO-4-010101?logo=socket.io&logoColor=white&style=flat-square" />
+  <img alt="LangChain" src="https://img.shields.io/badge/LangChain-1.1-1C3C3C?logo=langchain&logoColor=white&style=flat-square" />
+  <img alt="Mistral AI" src="https://img.shields.io/badge/Mistral%20AI-mistral--large--latest-FF7000?style=flat-square" />
+  <img alt="Tavily" src="https://img.shields.io/badge/Tavily-0.7-4051B5?style=flat-square" />
+  <br />
+  <img alt="Node.js >=18" src="https://img.shields.io/badge/Node.js-%3E%3D18-339933?logo=nodedotjs&logoColor=white&style=flat-square" />
+  <img alt="License" src="https://img.shields.io/badge/License-MIT-blue?style=flat-square" />
 </p>
 
 Real-time AI chat assistant with conditional web search, streaming responses, and tool-calling capabilities. Built with a clean layered architecture that separates transport, state, and presentation — designed so the AI core (`backend/core/`) can be reused independently of the chat interface.
