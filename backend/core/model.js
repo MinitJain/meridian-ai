@@ -5,8 +5,12 @@ import { ChatMistralAI } from "@langchain/mistralai";
 
 const emailTool = tool(
   async ({ to, subject, body }) => {
-    await sendEmail(to, subject, body, body);
-    return `Email sent to ${to}`;
+    try {
+      await sendEmail(to, subject, body, body);
+      return `Email sent to ${to}`;
+    } catch (error) {
+      return `Failed to send email to ${to}: ${error.message}`;
+    }
   },
   {
     name: "send_email",
